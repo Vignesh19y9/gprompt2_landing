@@ -31,10 +31,10 @@ export default function App() {
           <p className="text-neutral-500">&copy; 2024 gprompt</p>
         </div>
         {/* Center */}
-        <div className="flex space-x-2">
-          <Link to="/privacy">Privacy Policy</Link>
+        <div className="flex space-x-2 text-neutral-500">
+          <Link to="/privacy">Privacy</Link>
           <p>|</p>
-          <Link to="/terms"> Terms of Service</Link>
+          <Link to="/terms">Terms</Link>
         </div>
         {/* Right side */}
         <a href="mailto:robzapps1@gmail.com" className="text-neutral-500">
