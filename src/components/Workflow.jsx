@@ -6,22 +6,22 @@ const Workflow = () => {
   return (
     <div>
       <div className="py-10">
-        <div className="py-10">
-          <h1 className="text-center text-3xl font-bold mb-6">
-            <span className="bg-gradient-to-l from-orange-500 to-yellow-300 text-transparent bg-clip-text font-black">
-              Easy{" "}
+        <div className="py-10 m-10">
+          <h1 className="text-center text-5xl font-bold mb-6">
+            <span className="bg-gradient-to-l from-orange-300 to-orange-500 text-transparent bg-clip-text font-black">
+              Easily{" "}
             </span>
-            Template Creation & {""}
-            <span className="bg-gradient-to-l from-orange-500 to-yellow-300 text-transparent bg-clip-text font-black">
-              Editing{" "}
+            Create{" "}
+            <span className="bg-gradient-to-l from-orange-500 to-orange-300 text-transparent bg-clip-text font-black">
+              Templates{" "}
             </span>
           </h1>
 
-          <h2 className="text-gray-400 text-lg tracking-wide text-center">
+          {/* <h2 className="text-gray-500 text-lg tracking-wide text-center">
             Can't find the perfect template?
-          </h2>
-          <h2 className="text-gray-400 text-lg tracking-wide text-center">
-            No worries! Craft your own effortlessly for your needs.
+          </h2> */}
+          <h2 className="text-gray-500 text-lg tracking-wide text-center">
+            Craft your own prompt template effortlessly for all your needs.
           </h2>
         </div>
 
@@ -64,31 +64,29 @@ const PromptTemplate = () => {
   }, []);
 
   return (
-    <div style={{ textAlign: "center", fontFamily: "Arial, sans-serif" }}>
-      <h2 style={{ color: "#888" }}>Prompt template</h2>
-
-      <div style={{ fontSize: "24px", fontWeight: "bold", margin: "20px 0" }}>
+    <div>
+      <h2 className="text-gray-500">Prompt template</h2>
+      <div className="text-2xl mb-10 font-bold">
         Write a blog post on the topic{" "}
         <span style={{ backgroundColor: "gray", color: "white" }}>
           #content#{" "}
         </span>
       </div>
 
-      <div style={{ fontSize: "48px", margin: "20px 0" }}>+</div>
+      <div style={{ fontSize: "28px", margin: "10px 0" }}>+</div>
+      <h2 className="text-gray-500">Main content</h2>
 
-      <h2 style={{ color: "#888" }}>Main content</h2>
-
-      <div style={{ fontSize: "24px", fontWeight: "bold", margin: "20px 0" }}>
-        <span style={{ color: "orange" }}>{content}</span>
+      <div className="text-2xl mb-10 font-bold">
+        <span className="text-orange-500 text-3xl">{content}</span>
       </div>
 
-      <div style={{ fontSize: "48px", margin: "20px 0" }}>=</div>
+      <div style={{ fontSize: "28px", margin: "10px 0" }}>=</div>
 
-      <h2 style={{ color: "#888" }}>Final prompt</h2>
+      <h2 className="text-gray-500">Final prompt</h2>
 
-      <div style={{ fontSize: "24px", fontWeight: "bold", margin: "20px 0" }}>
+      <div className="text-2xl mb-10 font-bold">
         Write a blog post on the topic{" "}
-        <span style={{ color: "orange" }}>{content}</span>
+        <span className="text-orange-500 text-2xl">{content}</span>
       </div>
     </div>
   );
@@ -99,13 +97,7 @@ const PromptTemplate = () => {
 const Video = ({ videoSrc }) => {
   return (
     <div className="flex  justify-center">
-      <video
-        autoPlay
-        loop
-        muted
-        className="rounded-xl shadow-2xl border border-gray-700"
-        controls
-      >
+      <video autoPlay loop muted className="rounded-xl " controls>
         <source src={videoSrc} type="video/mp4" />
         Your browser does not support the video tag.
       </video>

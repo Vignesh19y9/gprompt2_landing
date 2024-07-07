@@ -18,7 +18,7 @@ const Enter = () => {
           <img
             src={im1}
             alt="Social Media Content Sharing"
-            className="rounded-xl shadow-2xl border border-gray-700 max-w-full lg:max-w-lg"
+            className="rounded-xl  max-w-full lg:max-w-lg"
           />
         </div>
       </div>

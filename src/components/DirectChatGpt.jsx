@@ -6,31 +6,24 @@ const DirectChatGpt = () => {
     <div className="py-10">
       <div className="max-w-7xl mx-auto px-6 lg:flex lg:flex-row items-center lg:space-x-8">
         <div className="flex flex-col space-y-10 lg:order-2">
-          <div className="text-center space-y-4 m-10">
+          <div className="text-center  m-10">
             <h2 className="text-4xl tracking-tight font-bold">
-              Social Media Content{" "}
-              <span className="bg-gradient-to-l from-pink-500 to-pink-300 text-transparent bg-clip-text font-black">
-                Sharing{" "}
+              Send Prompts{" "}
+              <span className="bg-gradient-to-l from-orange-500 to-orange-400 text-transparent bg-clip-text font-black">
+                Directly{" "}
               </span>
+              to ChatGPT
             </h2>
-            <h2 className="text-gray-400 text-lg tracking-wide">
-              No more selecting & copying!
-            </h2>
-            <h2 className="text-gray-400 text-lg tracking-wide">
-              Import posts directly from social media. Generate AI-driven
-              comments & replies.
-            </h2>
-            <div className="flex justify-center p-5">
-              <div>
-                <h2 className="text-lg text-left tracking-wide">Twitter/X</h2>
-                <h2 className="text-lg text-left tracking-wide">LinkedIn</h2>
-                <h2 className="text-lg text-left tracking-wide">
-                  Facebook (coming soon)
-                </h2>
-                <h2 className="text-lg text-left tracking-wide">
-                  Reddit (coming soon)
-                </h2>
-              </div>
+            <div className="p-10">
+              <h2 className="text-gray-400  text-lg tracking-wide">
+                Worried about data security?
+              </h2>
+              <h2 className="text-gray-400  text-lg tracking-wide">
+                Your prompts go directly to your personal ChatGPT account
+              </h2>
+              <h2 className="text-gray-400  text-lg tracking-wide">
+                No middlemen, just your prompts and ChatGPT.
+              </h2>
             </div>
           </div>
         </div>
@@ -38,7 +31,7 @@ const DirectChatGpt = () => {
           <img
             src={im1}
             alt="Social Media Content Sharing"
-            className="rounded-xl shadow-2xl border border-gray-700 max-w-full lg:max-w-lg"
+            className="rounded-xl  max-w-full lg:max-w-lg"
           />
         </div>
       </div>

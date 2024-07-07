@@ -8,18 +8,29 @@ const Customize = () => {
         <div className="flex flex-col space-y-10 ">
           <div className="text-center space-y-4 m-10">
             <h2 className="text-4xl tracking-tight font-bold">
-              <span className="bg-gradient-to-l from-pink-500 to-pink-300 text-transparent bg-clip-text font-black">
+              <span className="bg-gradient-to-l from-orange-500 to-orange-300 text-transparent bg-clip-text font-black">
                 Customize{" "}
               </span>
               Your AI Writing Experience{" "}
             </h2>
-            <h2 className="text-gray-400 text-lg tracking-wide">
+            <h2 className="text-gray-500 text-lg tracking-wide">
               Tweak templates just the way you like
             </h2>
-            <h2 className="text-gray-400 text-lg tracking-wide">
-              Adjust voice tone, writing styles, and even languages to match
-              what you're after.
-            </h2>
+
+            <div className="flex justify-center p-10">
+              <div className="  font-medium">
+                <h2 className="text-orange-500 text-lg text-left ">
+                  ➔ Voice tone
+                </h2>
+                <h2 className="text-orange-500 text-lg text-left ">
+                  ➔ Writing styles
+                </h2>
+                <h2 className="text-orange-500 text-lg text-left ">
+                  ➔ Languages
+                </h2>
+                <h2 className="text-orange-500 text-lg text-left ">➔ Mood</h2>
+              </div>
+            </div>
           </div>
         </div>
         <Video videoSrc={video1} />
@@ -33,13 +44,7 @@ export default Customize;
 const Video = ({ videoSrc }) => {
   return (
     <div className="flex  justify-center">
-      <video
-        autoPlay
-        loop
-        muted
-        className="rounded-xl shadow-2xl border border-gray-700"
-        controls
-      >
+      <video autoPlay loop muted className="rounded-xl" controls>
         <source src={videoSrc} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
