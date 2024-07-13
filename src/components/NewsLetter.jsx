@@ -2,7 +2,7 @@ import React, { useState } from "react";
 const NewsLetter = () => {
   const handleSubscribeClick = () => {
     // Navigate to the specified URL
-    window.location.href = "";
+    window.location.href = "https://robsapp1.ck.page/5e91c647e9";
   };
 
   return (
