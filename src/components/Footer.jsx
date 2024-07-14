@@ -37,8 +37,8 @@ export default function App() {
           <Link to="/terms">Terms</Link>
         </div>
         {/* Right side */}
-        <a href="mailto:robzapps1@gmail.com" className="text-neutral-500">
-          robzapps1@gmail.com
+        <a href="mailto:contact@robzapps.com" className="text-neutral-500">
+          contact@robzapps.com
         </a>
       </div>
     </footer>
