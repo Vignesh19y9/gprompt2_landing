@@ -71,7 +71,7 @@ const MobileMenu = ({ mobileDrawerOpen }) =>
         </a>
 
         <div className="text-center">
-          <a href="https://apps.apple.com/in/app/pixease/id6449191849?mt=12">
+          <a href="https://apps.apple.com/in/app/gprompt-ai-chat-assistant/id6451086523">
             <button
               type="button"
               className="text-white hover:text-white bg-[#007AFF] hover:bg-[#75b7fff3] focus:ring-4 focus:outline-none focus:ring-[#2c2035] font-bold rounded-full text-sm px-6 py-2 text-center inline-flex items-center transition-colors duration-300"
