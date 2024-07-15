@@ -8,24 +8,25 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto px-6 lg:flex lg:flex-row items-center lg:space-x-8">
         <div className="flex flex-col ">
           <Heading />
-          <p className="text-xl text-gray-500 text-center max-w-4xl tracking-wide font-light">
-            Harness the full power of ChatGPT with seamless and creative
-            prompts.
+          <p className="text-xl text-gray-500 text-center max-w-4xl tracking-wide font-light pt-10">
+            Boost your productivity by harnessing the full power of ChatGPT
           </p>
-          <a
-            href="https://www.producthunt.com/posts/gprompt?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-gprompt"
-            target="_blank"
-          ></a>
+
           <div>
             <DownloadButton />
             <div className="flex justify-center">
-              <img
-                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=471329&theme=light"
-                alt="Gprompt - Save&#0032;time&#0032;with&#0032;prompt&#0032;automation | Product Hunt"
-                // style="width: 250px; height: 54px;"
-                width="250"
-                height="54"
-              />
+              <a
+                href="https://www.producthunt.com/posts/gprompt?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-gprompt"
+                target="_blank"
+              >
+                <img
+                  src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=471329&theme=light"
+                  alt="Gprompt - Save&#0032;time&#0032;with&#0032;prompt&#0032;automation | Product Hunt"
+                  // style="width: 250px; height: 54px;"
+                  width="250"
+                  height="54"
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -40,7 +41,7 @@ export default HeroSection;
 const Heading = () => {
   return (
     <h1 className="text-5xl sm:text-6xl lg:text-6xl text-center tracking-tight font-bold">
-      <span className="bg-gradient-to-r bg-clip-text">Your</span>
+      <span className="bg-gradient-to-r bg-clip-text">Save</span>
       <span
         className="bg-gradient-to-r text-transparent bg-clip-text font-extrabold tracking-light"
         style={{
@@ -48,15 +49,15 @@ const Heading = () => {
         }}
       >
         {" "}
-        Ultimate{" "}
+        Time{" "}
       </span>
-      ChatGPT
+      with Prompt
       <div>
         <span className="h-14 bg-gradient-to-r from-orange-500 to-orange-300 text-transparent bg-clip-text font-extrabold ">
           {" "}
-          Prompt{" "}
+          Automation{" "}
         </span>
-        Companion
+        for ChatGPT
       </div>
     </h1>
   );
