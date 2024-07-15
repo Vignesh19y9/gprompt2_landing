@@ -7,7 +7,7 @@ const Questions = () => {
 
   return (
     <div className="bg-gradient-to-l from-gray-900 to-gray-800 p-20">
-      //{" "}
+      {" "}
       <h2 className="text-white text-3xl sm:text-4xl lg:text-4xl text-center mt-6 tracking-normal font-bold">
         Get efficent with{" "}
         <span className="bg-gradient-to-l from-orange-500 to-orange-600 text-transparent bg-clip-text ">
