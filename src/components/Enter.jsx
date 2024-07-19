@@ -5,7 +5,7 @@ const Enter = () => {
   return (
     <div className=" py-10">
       {/* bg-gradient-to-r from-gray-500 to-gray-900 */}
-      <div className="max-w-7xl mx-auto px-6 lg:flex lg:flex-col items-center lg:space-x-8">
+      <div className="max-w-7xl mx-auto px-6 lg:flex lg:flex-col items-center ">
         <div className="flex flex-col space-y-10">
           <div className="text-center space-y-4 m-10">
             {/* <h2 className="text-4xl tracking-tight font-bold">{title}</h2> */}

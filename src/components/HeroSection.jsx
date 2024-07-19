@@ -5,8 +5,8 @@ const HeroSection = () => {
   return (
     <div className=" py-10">
       {/* bg-gradient-to-r from-gray-500 to-gray-900 */}
-      <div className="max-w-7xl mx-auto px-6 lg:flex lg:flex-row items-center lg:space-x-8">
-        <div className="flex flex-col ">
+      <div className="max-w-7xl mx-auto  lg:flex lg:flex-row items-center lg:space-x-8">
+        <div className="flex flex-col  basis-2/4">
           <Heading />
           <p className="text-xl text-gray-500 text-center max-w-4xl tracking-wide font-light pt-10">
             Boost your productivity by harnessing the full power of ChatGPT
@@ -30,7 +30,9 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <Video videoSrc={video1} />
+        <div className="basis-2/4">
+          <Video videoSrc={video1} />
+        </div>
       </div>
     </div>
   );
@@ -65,8 +67,8 @@ const Heading = () => {
 
 const Video = ({ videoSrc }) => {
   return (
-    <div className="flex mt-10 justify-center">
-      <video autoPlay loop muted className="rounded-xl w-11/12" controls>
+    <div className="mt-5">
+      <video autoPlay loop muted className="rounded-xl " controls>
         <source src={videoSrc} type="video/mp4" />
         Your browser does not support the video tag.
       </video>

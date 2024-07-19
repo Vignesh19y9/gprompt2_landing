@@ -4,7 +4,7 @@ const DownloadButton = () => {
       <a href="https://apps.apple.com/us/app/gprompt-ai-chat-prompts/id6451086523">
         <button
           type="button"
-          className="text-black dark:text-white hover:text-white dark:hover:text-black bg-[#111]  hover:bg-[#ff7b00] dark:hover:bg-[#ff7b00] focus:ring-4 focus:outline-none font-bold rounded-full text-lg px-8 py-3 text-center inline-flex items-center transition-colors duration-300"
+          className="text-white dark:hover:text-black bg-[#111]  hover:bg-[#ff7b00]  font-bold rounded-full text-lg px-8 py-3 text-center inline-flex items-center transition-colors duration-300"
           style={{
             boxShadow: "0 0px 60px rgba(181, 80, 0, 0.5)",
           }}

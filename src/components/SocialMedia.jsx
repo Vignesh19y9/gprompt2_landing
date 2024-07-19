@@ -5,7 +5,7 @@ const SocialMedia = () => {
   return (
     <div className="py-10">
       <div className="max-w-7xl mx-auto px-6 lg:flex lg:flex-row items-center lg:space-x-8">
-        <div className="flex flex-col space-y-10 lg:order-2">
+        <div className="flex flex-col space-y-10 lg:order-2 basis-2/4">
           <div className="text-center  m-10">
             <h2 className="text-4xl tracking-tight font-bold">
               Social Media Content{" "}
@@ -38,7 +38,9 @@ const SocialMedia = () => {
             </div>
           </div>
         </div>
-        <Video videoSrc={video1} className="lg:order-1" />
+        <div className="basis-2/4">
+          <Video videoSrc={video1} className="lg:order-1" />
+        </div>
       </div>
     </div>
   );

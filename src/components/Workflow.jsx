@@ -6,7 +6,7 @@ const Workflow = () => {
   return (
     <div>
       <div className="py-10">
-        <div className="py-10 m-10">
+        <div className="py-10 m-10 basis-2/4">
           <h1 className="text-center text-5xl font-bold mb-6">
             <span className="bg-gradient-to-l from-orange-300 to-orange-500 text-transparent bg-clip-text font-black">
               Easily{" "}
@@ -32,7 +32,9 @@ const Workflow = () => {
               <DownloadButton />
             </div>
           </div>
-          <Video videoSrc={video1} />
+          <div className="basis-2/4">
+            <Video videoSrc={video1} />
+          </div>
         </div>
       </div>
     </div>
