@@ -6,7 +6,7 @@ export default function App() {
   return (
     <footer className=" text-white dark:bg-neutral-910 p-10">
       <div className="flex-row ">
-        <div className="flex justify-center  lg:justify-end space-x-5 mb-5">
+        <div className="flex justify-center  lg:justify-start space-x-5 mb-5">
           <div className="logo">
             <SocialIcon
               url="https://twitter.com/gprompt_app"
