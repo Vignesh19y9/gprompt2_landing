@@ -26,14 +26,17 @@ const SocialMedia = () => {
             <div className="flex justify-center p-10">
               <div className="  font-light">
                 <h2 className="text-blue-500 text-lg text-left ">
-                  ➔ Twitter/X
+                  • Twitter/X
                 </h2>
-                <h2 className="text-blue-500 text-lg text-left ">➔ LinkedIn</h2>
-                <h2 className="text-gray-500 text-lg text-left ">
-                  ➔ Facebook (coming soon)
+                <h2 className="text-blue-500 text-lg text-left ">
+                  {" "}
+                  • LinkedIn
                 </h2>
                 <h2 className="text-gray-500 text-lg text-left ">
-                  ➔ Reddit (coming soon)
+                  • Facebook (coming soon)
+                </h2>
+                <h2 className="text-gray-500 text-lg text-left ">
+                  • Reddit (coming soon)
                 </h2>
               </div>
             </div>

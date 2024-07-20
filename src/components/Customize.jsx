@@ -20,15 +20,15 @@ const Customize = () => {
             <div className="flex justify-center p-10">
               <div className="  font-medium">
                 <h2 className="text-orange-500 text-lg text-left ">
-                  ➔ Voice tone
+                  • Voice tone
                 </h2>
                 <h2 className="text-orange-500 text-lg text-left ">
-                  ➔ Writing styles
+                  • Writing styles
                 </h2>
                 <h2 className="text-orange-500 text-lg text-left ">
-                  ➔ Languages
+                  • Languages
                 </h2>
-                <h2 className="text-orange-500 text-lg text-left ">➔ Mood</h2>
+                <h2 className="text-orange-500 text-lg text-left "> • Mood</h2>
               </div>
             </div>
           </div>

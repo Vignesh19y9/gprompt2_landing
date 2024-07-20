@@ -1,7 +1,7 @@
 import React from "react";
 
 const Terms = () => {
-  const fontColor = "#ffff";
+  const fontColor = "#000";
 
   return (
     <div className="p-10">
