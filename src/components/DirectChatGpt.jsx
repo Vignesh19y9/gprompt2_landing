@@ -16,9 +16,6 @@ const DirectChatGpt = () => {
             </h2>
             <div className="p-10">
               <h2 className="text-gray-400  text-lg tracking-wide">
-                Worried about data security?
-              </h2>
-              <h2 className="text-gray-400  text-lg tracking-wide">
                 Your prompts go directly to your personal ChatGPT account
               </h2>
               <h2 className="text-gray-400  text-lg tracking-wide">

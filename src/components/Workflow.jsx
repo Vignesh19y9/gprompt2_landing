@@ -76,7 +76,7 @@ const PromptTemplate = () => {
       </div>
 
       <div style={{ fontSize: "28px", margin: "10px 0" }}>+</div>
-      <h2 className="text-gray-500">Main content</h2>
+      <h2 className="text-gray-500">content</h2>
 
       <div className="text-2xl mb-10 font-bold">
         <span className="text-orange-500 text-3xl">{content}</span>

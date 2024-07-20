@@ -13,14 +13,15 @@ const SocialMedia = () => {
                 Sharing{" "}
               </span>
             </h2>
-            <h2 className="text-gray-400 text-lg tracking-wide">
-              No more selecting & copying!
-            </h2>
+
             <h2 className="text-gray-400 text-lg tracking-wide">
               Import posts directly from social media
             </h2>
             <h2 className="text-gray-400 text-lg tracking-wide">
               Generate AI-driven comments & replies.
+            </h2>
+            <h2 className="text-gray-400 text-lg tracking-wide">
+              No more copying & pasting!
             </h2>
             <div className="flex justify-center p-10">
               <div className="  font-light">

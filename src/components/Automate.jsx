@@ -14,7 +14,7 @@ const Automate = () => {
           <p className="text-gray-500">Use Gprompt as:</p>
           <div className="p-3">
             <h2 className="text-lg  text-left tracking-wide ">
-              ➔ Email composer
+              ➔ Email Composer
             </h2>
             <h2 className="text-lg  text-left tracking-wide ">
               ➔ Comment Creator

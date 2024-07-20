@@ -27,18 +27,17 @@ export default function App() {
 
         {/* Copyright, Privacy Policy, Terms of Use, and Email */}
         <div className="flex flex-col lg:flex-row justify-between items-center space-y-2">
-          {/* Left side */}
+          <div className="w-40">
+            <a href="mailto:contact@robzapps.com" className="text-neutral-500">
+              contact@robzapps.com
+            </a>
+          </div>
 
-          {/* Center */}
-          <a href="mailto:contact@robzapps.com" className="text-neutral-500">
-            contact@robzapps.com
-          </a>
-
-          {/* Right side */}
-          <div className="flex space-x-2">
+          <div>
             <p className="text-neutral-500 text-xs">&copy; 2024 gprompt</p>
           </div>
-          <div className="flex space-x-2 text-neutral-500">
+
+          <div className="flex space-x-2 text-neutral-500 w-40 justify-center">
             <Link to="/privacy">Privacy</Link>
             <p>|</p>
             <Link to="/terms">Terms</Link>
