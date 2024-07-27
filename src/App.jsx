@@ -19,7 +19,7 @@ const App = () => {
   return (
     <Routes>
       <Route
-        path="/gprompt/"
+        path="/"
         element={
           <div>
             <Navbar />
